@@ -1,0 +1,22 @@
+Midijack använder vi:
+
+En note on delegate skickar mididatat. 
+
+Vi hanterar det genom att ha det i en BehaviourScript.
+
+Därifrån kan vi fråga efter Mididata i flera olika kontext?
+
+T.ex. kan vi be om mididata i en SongAnalys, 
+Eller så kan vi be om det i SpelaLjud.
+
+I Midihanteringen måste vi tänka på :
+
+Ljud Ut - ett trasigt för missad ton, fint för träff
+rörelse - Måste skickas som input till spelfiguren.
+Poäng   - Bör ges poäng för miditräffar, kanske avdrag för midimissar.
+SkärmRepresentation - Kanske en not, en tangent som lyser upp.
+Livskraft-  KAnske en stapel som byggs upp av träffar måste justeras. 
+vapen- Representation i form av skott mot en fiende eller så om det är en fightscen.
+
+ 
+

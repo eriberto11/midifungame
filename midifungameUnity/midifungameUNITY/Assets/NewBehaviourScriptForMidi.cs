@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using MidiJack;
+using SharpMod;
 
 public class NewBehaviourScriptForMidi : MonoBehaviour {
 
@@ -18,7 +19,7 @@ public class NewBehaviourScriptForMidi : MonoBehaviour {
 	//public void setUpNoteOn(channel, noteNumber, velocity){
 	public void setUpNoteOn (MidiChannel channel, int note, float velocity)
 	{
-		Debug.Log("MidiMess = {0}",channel);
+		Debug.Log("MidiMess ="+note+" channel = "+channel+" velocity = "+velocity);
 	
 //		Console.WriteLine("Notification received for: {0}", name);
 	}
